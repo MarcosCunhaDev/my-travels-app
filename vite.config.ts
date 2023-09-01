@@ -9,7 +9,7 @@ export default defineConfig(({ command }) => {
   };
 
   if (command !== "serve") {
-    config.base = "/my-travels/";
+    config.base = "/my-travels-app/";
   }
 
   return config;
